@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#" class="cabecalho__menu-hamburguer" id="menu-hamburguer"><img src="img/Menu.svg" alt=""></a>
+        <img src="img/Logo.svg" alt="" class="cabecalho__logo--mobile">
+        <div class="cabecalho__icones">
+            <a href="" class="icones-cabecalho"><img src="img/Coração.svg" alt=""></a>
+            <a href="" class="icones-cabecalho"><img src="img/Sacola.svg" alt=""></a>
+            <a href="" class="icones-cabecalho"><img src="img/Usuário.svg" alt=""></a>
+        </div>
+        <nav class="cabecalho__nav">
+            <p class="nav__link--titulo">Categorias</p>
+            <a href="#" class="nav__link">Programação</a>
+            <a href="#" class="nav__link">Front-end</a>
+            <a href="#" class="nav__link">Infraestrutura</a>
+            <a href="#" class="nav__link">Business</a>
+            <a href="#" class="nav__link">Design & UX</a>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada">
+            <h1 class="chamada__titulo">Já sabe por onde começar?</h1>
+            <p class="chamada__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+            <input type="text" class="chamada__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+        
+        <section class="secao">
+            <h3 class="geral__titulo--h3">ÚLTIMOS LANÇAMENTOS</h3>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/Liderança.png" alt="" class="livros"></div>
+                  <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="" class="livros"></div>
+                  <div class="swiper-slide"><img src="img/Javascript.png" alt="" class="livros"></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+
+            <div class="secao__card">
+                <figcaption>
+                    <h5 class="card__h5">Talvez você também se interesse por...</h5>
+                    <h4 class="card__h4">Angular 11 e Firebase</h4>
+                    <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="card__icones">
+                        <a href="" class="icones__card"><img src="img/Coração.svg" alt=""></a>
+                        <a href="" class="icones__card"><img src="img/Sacola.svg" alt=""></a>
+                    </div>
+                </figcaption>
+                <figure class="card__imagens">
+                    <img src="img/angular.png" alt="">
+                    <button class="card__botao">Saiba mais</button>
+                </figure>
+            </div>
+
+        </section>
+        <section class="secao">
+            <h3 class="geral__titulo--h3">MAIS VENDIDOS</h3>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/Liderança.png" alt="" class="livros"></div>
+                  <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="" class="livros"></div>
+                  <div class="swiper-slide"><img src="img/Javascript.png" alt="" class="livros"></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+
+            <div class="secao__card">
+                <figcaption>
+                    <h5 class="card__h5">Talvez você também se interesse por...</h5>
+                    <h4 class="card__h4">Angular 11 e Firebase</h4>
+                    <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="card__icones">
+                        <a href="" class="icones__card"><img src="img/Coração.svg" alt=""></a>
+                        <a href="" class="icones__card"><img src="img/Sacola.svg" alt=""></a>
+                    </div>
+                </figcaption>
+                <figure class="card__imagens">
+                    <img src="img/angular.png" alt="">
+                    <button class="card__botao">Saiba mais</button>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h3></h3>
+            <div>
+                <a href="#">Android</a>
+                <a href="#">Marketing Digital</a>
+                <a href="#">Agile</a>
+                <a href="#">Startups</a>
+                <a href="#">HTML & CSS</a>
+                <a href="#">Python</a>
+                <a href="#">OO</a>
+                <a href="#">Java</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
