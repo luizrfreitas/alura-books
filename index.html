@@ -26,7 +26,7 @@
             <a href="" class="icones-cabecalho"><img src="img/Sacola.svg" alt=""></a>
             <a href="" class="icones-cabecalho"><img src="img/Usuário.svg" alt=""></a>
         </div>
-        <nav class="cabecalho__nav">
+        <nav class="cabecalho__nav" id="nav">
             <p class="nav__link--titulo">Categorias</p>
             <a href="#" class="nav__link">Programação</a>
             <a href="#" class="nav__link">Front-end</a>
@@ -99,21 +99,33 @@
                 </figure>
             </div>
         </section>
-        <section>
-            <h3></h3>
-            <div>
-                <a href="#">Android</a>
-                <a href="#">Marketing Digital</a>
-                <a href="#">Agile</a>
-                <a href="#">Startups</a>
-                <a href="#">HTML & CSS</a>
-                <a href="#">Python</a>
-                <a href="#">OO</a>
-                <a href="#">Java</a>
+        <section class="recentes">
+            <h3 class="recentes__titulo">TÓPICOS VISITADOS RECENTEMENTE</h3>
+            <div class="recentes__itens">
+                <a href="#" class="recentes__item">Android</a>
+                <a href="#" class="recentes__item">Marketing Digital</a>
+                <a href="#" class="recentes__item">Agile</a>
+                <a href="#" class="recentes__item">Startups</a>
+                <a href="#" class="recentes__item">HTML & CSS</a>
+                <a href="#" class="recentes__item">Python</a>
+                <a href="#" class="recentes__item">OO</a>
+                <a href="#" class="recentes__item">Java</a>
             </div>
         </section>
+        <section class="newsletter">
+            <h3 class="newsletter__titulo">Fique por dentro das novidades!</h3>
+            <p class="newsletter__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <input type="text" placeholder="Cadastre seu e-mail" class="newsletter__input">
+        </section>
+        <footer class="rodape">
+            <p class="rodape__texto">Grupo Alura</p>
+        </footer>
     </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+
 </body>
 </html>
